@@ -61,15 +61,6 @@ Includes the following components:
 	* ftp
 	* curl
 
-Installation from [Docker registry hub](https://registry.hub.docker.com/r/fauria/lamp/).
-----
-
-You can download the image using the following command:
-
-```bash
-docker pull fauria/lamp
-```
-
 Environment variables
 ----
 
