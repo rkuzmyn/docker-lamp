@@ -1,7 +1,7 @@
 lamp
 ==========
 
-![docker_logo](https://raw.githubusercontent.com/rkuzmyn/docker-lamp/master/docker_139x115.png)![docker_rkuzmyn_logo](https://raw.githubusercontent.com/rkuzmyn/docker-lamp/master/docker_rkuzmyn_161x115.png)
+![docker_logo](https://raw.githubusercontent.com/rkuzmyn/docker-lamp/master/docker_139x115.png)
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/rkuzmyn/lamp.svg?style=plastic)](https://hub.docker.com/r/rkuzmyn/lamp/)
 [![Docker Build Status](https://img.shields.io/docker/build/rkuzmyn/lamp.svg?style=plastic)](https://hub.docker.com/r/rkuzmyn/lamp/builds/)
