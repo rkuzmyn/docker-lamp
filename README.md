@@ -3,9 +3,9 @@ lamp
 
 ![docker_logo](https://raw.githubusercontent.com/rkuzmyn/docker-lamp/master/docker_139x115.png)
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/rkuzmyn/lamp.svg?style=plastic)](https://hub.docker.com/r/kuzmyn1983/lamp/)
-[![Docker Build Status](https://img.shields.io/docker/build/kuzmyn1983/lamp.svg?style=plastic)](https://hub.docker.com/r/kuzmyn1983/lamp/builds/)
-[![](https://images.microbadger.com/badges/image/rkuzmyn/lamp.svg)](https://microbadger.com/images/rkuzmyn/lamp "rkuzmyn/lamp")
+[![Docker Pulls](https://img.shields.io/docker/pulls/rkuzmyn/lamp.svg?style=plastic)](https://hub.docker.com/r/kuzmyn1983/lamp-server/)
+[![Docker Build Status](https://img.shields.io/docker/build/kuzmyn1983/lamp.svg?style=plastic)](https://hub.docker.com/r/kuzmyn1983/lamp-server/builds/)
+[![](https://images.microbadger.com/badges/image/rkuzmyn/lamp-server.svg)](https://microbadger.com/images/rkuzmyn/lamp-server "rkuzmyn/lamp-server")
 
 
 This Docker container implements a last generation LAMP stack with a set of popular PHP modules. Includes support for [Composer](https://getcomposer.org/), [Bower](http://bower.io/) and [npm](https://www.npmjs.com/) package managers and a Postfix service to allow sending emails through PHP [mail()](http://php.net/manual/en/function.mail.php) function.
