@@ -1,11 +1,6 @@
 lamp
 ==========
 
-![docker_logo](https://raw.githubusercontent.com/fauria/docker-lamp/master/docker_139x115.png)
-
-[![Docker Pulls](https://img.shields.io/docker/pulls/fauria/lamp.svg?style=plastic)](https://hub.docker.com/r/fauria/lamp/)
-[![Docker Build Status](https://img.shields.io/docker/build/fauria/lamp.svg?style=plastic)](https://hub.docker.com/r/fauria/lamp/builds/)
-[![](https://images.microbadger.com/badges/image/fauria/lamp.svg)](https://microbadger.com/images/fauria/lamp "fauria/lamp")
 
 This Docker container implements a last generation LAMP stack with a set of popular PHP modules. Includes support for [Composer](https://getcomposer.org/), [Bower](http://bower.io/) and [npm](https://www.npmjs.com/) package managers and a Postfix service to allow sending emails through PHP [mail()](http://php.net/manual/en/function.mail.php) function.
 
@@ -130,19 +125,19 @@ Use cases
 #### Create a temporary container for testing purposes:
 
 ```
-	docker run -i -t --rm fauria/lamp bash
+	docker run -i -t --rm kuzmyn1983/lamp bash
 ```
 
 #### Create a temporary container to debug a web app:
 
 ```
-	docker run --rm -p 8080:80 -e LOG_STDOUT=true -e LOG_STDERR=true -e LOG_LEVEL=debug -v /my/data/directory:/var/www/html fauria/lamp
+	docker run --rm -p 8080:80 -e LOG_STDOUT=true -e LOG_STDERR=true -e LOG_LEVEL=debug -v /my/data/directory:/var/www/html kuzmyn1983/lamp
 ```
 
 #### Create a container linking to another [MySQL container](https://registry.hub.docker.com/_/mysql/):
 
 ```
-	docker run -d --link my-mysql-container:mysql -p 8080:80 -v /my/data/directory:/var/www/html -v /my/logs/directory:/var/log/httpd --name my-lamp-container fauria/lamp
+	docker run -d --link my-mysql-container:mysql -p 8080:80 -v /my/data/directory:/var/www/html -v /my/logs/directory:/var/log/httpd --name my-lamp-container kuzmyn1983/lamp
 ```
 
 #### Get inside a running container and open a MariaDB console:
