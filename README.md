@@ -3,8 +3,8 @@ lamp
 
 ![docker_logo](https://raw.githubusercontent.com/rkuzmyn/docker-lamp/master/docker_139x115.png)
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/rkuzmyn/lamp.svg?style=plastic)](https://hub.docker.com/r/rkuzmyn/lamp/)
-[![Docker Build Status](https://img.shields.io/docker/build/rkuzmyn/lamp.svg?style=plastic)](https://hub.docker.com/r/rkuzmyn/lamp/builds/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/rkuzmyn/lamp.svg?style=plastic)](https://hub.docker.com/r/kuzmyn1983/lamp/)
+[![Docker Build Status](https://img.shields.io/docker/build/kuzmyn1983/lamp.svg?style=plastic)](https://hub.docker.com/r/kuzmyn1983/lamp/builds/)
 [![](https://images.microbadger.com/badges/image/rkuzmyn/lamp.svg)](https://microbadger.com/images/rkuzmyn/lamp "rkuzmyn/lamp")
 
 
