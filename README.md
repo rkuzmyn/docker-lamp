@@ -1,11 +1,11 @@
 lamp
 ==========
 
-![docker_logo](https://raw.githubusercontent.com/fauria/docker-lamp/master/docker_139x115.png)![docker_fauria_logo](https://raw.githubusercontent.com/fauria/docker-lamp/master/docker_fauria_161x115.png)
+![docker_logo](https://raw.githubusercontent.com/rkuzmyn/docker-lamp/master/docker_139x115.png)![docker_rkuzmyn_logo](https://raw.githubusercontent.com/rkuzmyn/docker-lamp/master/docker_rkuzmyn_161x115.png)
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/fauria/lamp.svg?style=plastic)](https://hub.docker.com/r/fauria/lamp/)
-[![Docker Build Status](https://img.shields.io/docker/build/fauria/lamp.svg?style=plastic)](https://hub.docker.com/r/fauria/lamp/builds/)
-[![](https://images.microbadger.com/badges/image/fauria/lamp.svg)](https://microbadger.com/images/fauria/lamp "fauria/lamp")
+[![Docker Pulls](https://img.shields.io/docker/pulls/rkuzmyn/lamp.svg?style=plastic)](https://hub.docker.com/r/rkuzmyn/lamp/)
+[![Docker Build Status](https://img.shields.io/docker/build/rkuzmyn/lamp.svg?style=plastic)](https://hub.docker.com/r/rkuzmyn/lamp/builds/)
+[![](https://images.microbadger.com/badges/image/rkuzmyn/lamp.svg)](https://microbadger.com/images/rkuzmyn/lamp "rkuzmyn/lamp")
 
 
 This Docker container implements a last generation LAMP stack with a set of popular PHP modules. Includes support for [Composer](https://getcomposer.org/), [Bower](http://bower.io/) and [npm](https://www.npmjs.com/) package managers and a Postfix service to allow sending emails through PHP [mail()](http://php.net/manual/en/function.mail.php) function.
